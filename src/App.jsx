@@ -1,6 +1,6 @@
 // app.jsx
 import React, { useState, useEffect } from "react";
-
+import CursorFollowerSpline from './CursorFollowerSpline';
 const App = () => {
     const [isNightMode, setIsNightMode] = useState(false);
     const [typedText, setTypedText] = useState('');
@@ -44,15 +44,15 @@ const App = () => {
 
     const projects = [
         {
-            image: "https://source.unsplash.com/random/800x600?code",
+            image: "https://images.pexels.com/photos/32355851/pexels-photo-32355851/free-photo-of-colorful-palette-of-paints-on-artistic-canvas.jpeg?auto=compress&cs=tinysrgb&w=600",
             title: "Paint App",
             description: "A React-based app for drawing and sketching with multiple brush colors and sizes. Check it out on GitHub and the deployed link!",
             tech: "React, JavaScript, HTML5",
             github: "https://github.com/Sushmit94/Paint-App",
-            deployed: "https://paint-app-sushmit.vercel.app/"
+            deployed: "https://01paint.vercel.app/"
         },
         {
-            image: "https://source.unsplash.com/random/800x600?website",
+            image: "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600",
             title: "Gaming Website",
             description: "A simple website built using HTML and CSS. Open to feedback and improvements!",
             tech: "HTML, CSS, JavaScript",
@@ -70,10 +70,13 @@ const App = () => {
                         {isNightMode ? '☀️' : '🌙'}
                     </button>
                 </div>
-                <div className="hero-content">
-                    <h1  className="name-heading">Sushmit Sharma</h1>
+                <div className="hero-content" style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
+                        <div>
+                             <h1 className="name-heading">Sushmit Sharma</h1>
                     <p className="animated-profession">{typedText}</p>
-                </div>
+                  </div>
+                        <CursorFollowerSpline />
+                        </div>
             </header>
 
             {/* About Section */}

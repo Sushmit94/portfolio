@@ -1,0 +1,15 @@
+.name-heading {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .animated-profession {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .hero-content canvas {
+    max-width: 400px;
+    height: auto;
+  }
+  
