@@ -39,7 +39,9 @@ const App = () => {
         typeLoop();
     }, []);
 
-    const about = "Passionate about technology and eager to continue growing my skills in software development, I bring a solid foundation in Python, C, C++, HTML, CSS, JavaScript, and React. I love building innovative projects that push the boundaries of technology. My journey in coding has equipped me with a diverse skill set and a problem-solving mindset, which I am excited to apply in the realms of web and app development. I believe in learning by doing and enjoy working on real-world applications that bring ideas to life. Always exploring the latest in tech, I’m on a mission to create impactful solutions in the decentralized world. Let’s build the future together!";
+    const about = "A highly skilled and forward-thinking Full-Stack Developer specializing in the MERN stack and the burgeoning world of Web3. With a proven track record of architecting and deploying robust, scalable applications, I bring a unique blend of expertise: the stability and dynamism of traditional web technologies (MongoDB, Express.js, React, Node.js) combined with a deep passion for building the decentralized future. My experience spans from crafting seamless user interfaces with React to engineering secure smart contracts in Solidity, positioning me at the critical intersection where today's web meets tomorrow's blockchain-powered internet. I am driven to build secure, transparent, and user-centric applications that solve real-world problems.";
+
+";
 
     const projects = [
         {
